@@ -1,33 +1,12 @@
-/* Reset styles */
-
-html {
-  box-sizing: border-box;
-}
-
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
-}
-
-body {
+  box-sizing: border-box;
   margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-li {
-  margin: 0;
+  padding: 0;
 }
 
 ul {
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
@@ -37,6 +16,8 @@ a {
 }
 
 button {
+  background-color: transparent;
+  border: 0;
   cursor: pointer;
 }
 

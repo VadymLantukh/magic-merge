@@ -1,14 +1,31 @@
-@import './header.scss';
-@import './vite-promo.scss';
+@import './home/header.scss';
+@import './home/main.scss';
+@import './home/advantages.scss';
+@import './home/reviews.scss';
+@import './home/about.scss';
+@import './home/gallery.scss';
+@import './home/ready.scss';
+@import './home/footer.scss';
+
+@import './container.scss';
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  --accent-text-colour: #004080;
+  --main-text-colour: #22313f;
+  --blue: #7ec3f2;
+  --yellow: #f4e7b2;
+  --green: #8dea88;
+  --header-colour: #91dde6;
+  --white: #fff;
+  --purple-button-active: #9747ff;
+
+  --font-family: 'PT Sans', sans-serif;
+  --second-family: 'Baloo 2', sans-serif;
+  --third-family: 'Merriweather', sans-serif;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,3 +33,4 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
