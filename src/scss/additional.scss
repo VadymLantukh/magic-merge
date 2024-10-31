@@ -1,0 +1,38 @@
+h2 {
+  margin-bottom: 40px;
+  font-family: var(--second-family);
+  color: var(--accent-text-colour);
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1200px) {
+  h2 {
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 56px;
+  }
+}
+
+p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  color: var(--main-text-colour);
+}
+
+@media only screen and (min-width: 1200px) {
+  p {
+    font-size: 32px;
+  }
+}
+
+.secction-margin {
+  margin-bottom: 80px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .secction-margin {
+    margin-bottom: 120px;
+  }
+}
