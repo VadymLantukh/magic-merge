@@ -1,0 +1,22 @@
+.header {
+  padding: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 var(--blue);
+  background-color: var(--header-colour);
+}
+
+.box-header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.burger-btn {
+  width: 32px;
+  height: 32px;
+}
+
+.burger-svg {
+  width: 25px;
+  height: 19px;
+}

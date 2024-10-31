@@ -1,13 +1,48 @@
 <header class="header">
   <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./privacy-policy.html" class="nav-link">Page 2</a>
-      </li>
+    <div class="box-header-nav">
+      <a
+        class="header-logo"
+        href="./index.html"
+        aria-label="Go to the main page"
+      >
+        <picture class="header-picture">
+          <source
+            media="(min-width: 1200px)"
+            srcset="./img/home/desc/logo.png 1x, ./img/home/desc/logo2x.png 2x"
+            type="image/png"
+          />
 
-      <li class="nav-item">
-        <a href="./terms-of-sercive.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              ./img/home/mob/logo_mob.png   1x,
+              ./img/home/mob/logo2x_mob.png 2x
+            "
+            type="image/png"
+          />
+
+          <img
+            class="header-picture-logo"
+            src="./img/home/mob/logo_mob.png"
+            alt="header-logo"
+            width="52px"
+            height="52px"
+            loading="lazy"
+          />
+        </picture>
+      </a>
+
+      <button class="burger-btn" type="button">
+        <svg class="burger-svg">
+          <use
+            href="./img/sprite.svg#burger-menu"
+            width="25"
+            heigth="19"
+            fill="#004080"
+          ></use>
+        </svg>
+      </button>
+    </div>
   </nav>
 </header>
