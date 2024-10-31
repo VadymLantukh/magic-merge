@@ -15,6 +15,18 @@ h2 {
   }
 }
 
+p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  color: var(--main-text-colour);
+}
+
+@media only screen and (min-width: 1200px) {
+  p {
+    font-size: 32px;
+  }
+}
+
 .secction-margin {
   margin-bottom: 80px;
 }
