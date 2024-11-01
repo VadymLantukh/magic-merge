@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 @media only screen and (min-resolution: 192dpi) {
   .container {
     background-image: url('/img/background-main@2x_mob.png');
@@ -22,6 +23,16 @@
   .container {
     padding: 0 80px;
     background-image: url('/img/background-main@2x.png');
+  }
+}
+
+.bg-service {
+  background-image: url('/img/background_menu.png');
+}
+
+@media only screen and (min-resolution: 192dpi) {
+  .bg-service {
+    background-image: url('/img/background@2x_menu.png');
   }
 }
 
