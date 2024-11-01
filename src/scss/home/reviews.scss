@@ -1,0 +1,98 @@
+.reviews-container {
+  max-width: 1200px; /* Збільшуємо максимальну ширину контейнера */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.swiper {
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+.cardSvg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  margin-top: 10px;
+  margin-right: 40px;
+  width: 16px;
+  height: 16px;
+}
+
+.review-card {
+  position: relative;
+  margin-bottom: 10px;
+  background: #f5f5f5;
+  padding: 12px 60px 10px 18px;
+  border-radius: 10px 60px 60px 10px;
+  height: 93px;
+}
+
+.first {
+  background-color: var(--blue);
+}
+
+.second {
+  background-color: var(--yellow);
+}
+
+.third {
+  margin-bottom: 30px;
+  background-color: var(--green);
+}
+
+h3 {
+  color: var(--main-text-colour);
+  font-family: var(--third-family);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.review-card:nth-child(0) {
+}
+
+.review-card::before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  top: 0;
+  bottom: 0;
+  width: 8px;
+  background-color: var(--accent-text-colour);
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+/* Стилі для пагінації */
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet {
+  background-color: #7ec3f2 !important;
+  width: 10px;
+  height: 10px;
+  opacity: 1 !important;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  width: 25px !important;
+  border-radius: 5px !important;
+  opacity: 1;
+}
+
+/* Медіа-запити для адаптивності */
+@media (max-width: 768px) {
+  .reviews-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
