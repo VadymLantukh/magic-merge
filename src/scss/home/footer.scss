@@ -1,0 +1,27 @@
+.footer {
+  padding: 0 32px 40px;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-nav-list {
+  display: flex;
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 6px;
+  text-align: center;
+  color: var(--accent-text-colour);
+}
+
+.footer-parag {
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 6px;
+  text-align: center;
+  color: var(--accent-text-colour);
+}
