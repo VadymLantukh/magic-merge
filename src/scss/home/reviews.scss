@@ -38,6 +38,7 @@
 }
 
 .third {
+  margin-bottom: 30px;
   background-color: var(--green);
 }
 
@@ -69,21 +70,23 @@ h3 {
 
 /* Стилі для пагінації */
 .swiper-pagination {
-  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .swiper-pagination-bullet {
-  width: 8px;
-  height: 8px;
-  background: #ccc;
-  opacity: 0.5;
+  background-color: #7ec3f2 !important;
+  width: 10px;
+  height: 10px;
+  opacity: 1 !important;
   transition: all 0.3s ease;
 }
 
 .swiper-pagination-bullet-active {
+  width: 25px !important;
+  border-radius: 5px !important;
   opacity: 1;
-  background: #666;
-  transform: scale(1.2);
 }
 
 /* Медіа-запити для адаптивності */
