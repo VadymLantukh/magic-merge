@@ -1,0 +1,33 @@
+.advantages-box {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+  width: 256px;
+}
+
+.advantages-img {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+}
+
+.list-advantages {
+  border-radius: 60px 30px 30px 60px;
+  background: linear-gradient(
+    148deg,
+    #7ec3f2 0%,
+    rgba(126, 195, 242, 0.26) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 370px;
+  width: 188px;
+  padding-left: 52px;
+  justify-content: center;
+}
+
+.item-advantages {
+  width: 126px;
+}
