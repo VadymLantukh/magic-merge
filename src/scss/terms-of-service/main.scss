@@ -1,0 +1,29 @@
+.service-main-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-arrowBack {
+  position: absolute;
+  top: 35%;
+  left: 0px;
+  transform: translateY(-50%);
+}
+
+.service-title {
+  width: 120px;
+}
+
+.service-parag-box {
+  display: flex;
+  justify-content: center;
+}
+
+.service-parag-data {
+  margin-bottom: 10px;
+}
+
+.service-main-parag {
+  width: 136px;
+}
