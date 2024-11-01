@@ -1,8 +1,7 @@
 .header {
-  padding: 10px 0;
+  padding: 10px 32px;
   border-radius: 10px;
   box-shadow: 0 4px 4px 0 var(--blue);
-  background-color: var(--header-colour);
 }
 
 .box-header-nav {
@@ -19,4 +18,79 @@
 .burger-svg {
   width: 25px;
   height: 19px;
+}
+
+.menu-box {
+  display: flex;
+  justify-content: center;
+}
+
+.mob-menu {
+  z-index: 3;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  position: fixed;
+  border-radius: 8px;
+  height: 165px;
+  width: 256px;
+  background-color: var(--yellow);
+  padding: 44px 40px;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.close-menu-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.close-menu-svg {
+  width: 10px;
+  height: 10px;
+}
+
+.list-mob-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 10px;
+  color: var(--accent-text-colour);
+}
+
+.link-mob-nav:hover,
+.link-mob-nav:focus {
+  font-weight: 700;
+}
+
+.bg-mob-menu {
+  position: fixed;
+  z-index: 2;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../img/background_menu.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+@media only screen and (min-resolution: 192dpi) {
+  .bg-mob-menu {
+    background-image: url('../img/background@2x_menu.png');
+  }
+}
+
+.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
 }
