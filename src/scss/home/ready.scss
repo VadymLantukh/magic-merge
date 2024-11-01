@@ -31,6 +31,17 @@
   background-color: var(--white);
 }
 
+.ready-btn-googlePlay:hover {
+  background: var(
+    --Gradient-Hover,
+    linear-gradient(176deg, #2d98fa 2.26%, rgba(45, 152, 250, 0.3) 97.97%)
+  );
+}
+
+.ready-btn-googlePlay:active {
+  background: var(--purple-button-active);
+}
+
 .ready-link-googlePlay {
   width: 100%;
   height: 100%;
