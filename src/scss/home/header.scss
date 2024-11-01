@@ -20,6 +20,11 @@
   height: 19px;
 }
 
+.menu-box {
+  display: flex;
+  justify-content: center;
+}
+
 .mob-menu {
   z-index: 3;
   opacity: 0;
@@ -27,7 +32,6 @@
   visibility: hidden;
   position: fixed;
   border-radius: 8px;
-  margin: 0 auto;
   height: 165px;
   width: 256px;
   background-color: var(--yellow);
@@ -73,7 +77,8 @@
   top: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url('/img/background_menu.png');
+  background-image: url('../img/background_menu.png');
+  background-size: cover;
   background-repeat: no-repeat;
   transition: opacity 0.5s ease, visibility 0.5s ease;
 }
