@@ -83,6 +83,12 @@
   transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
+@media only screen and (min-resolution: 192dpi) {
+  .bg-mob-menu {
+    background-image: url('../img/background@2x_menu.png');
+  }
+}
+
 .is-open {
   opacity: 1;
   pointer-events: auto;
