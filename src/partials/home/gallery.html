@@ -1,17 +1,17 @@
 <section class="section-margin">
   <link
     rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    href="https://cdn.jsdelivr.net/npm/swiper@latest/swiper-bundle.min.css"
   />
 
   <!-- Підключаємо JS Swiper -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@latest/swiper-bundle.min.js"></script>
 
   <h2>Gallery</h2>
   <div class="gallery-container">
     <div class="swiper swiperGallery">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">
+        <div class="swiper-slide gallery" data-hash="gallery1">
           <div class="gallery-card">
             <img
               src="./img/home/gallery-picture-1.png"
@@ -21,7 +21,7 @@
           </div>
         </div>
 
-        <div class="swiper-slide">
+        <div class="swiper-slide gallery" data-hash="gallery2">
           <div class="gallery-card">
             <img
               src="./img/home/gallery-picture-2.png"
@@ -31,7 +31,7 @@
           </div>
         </div>
 
-        <div class="swiper-slide">
+        <div class="swiper-slide gallery" data-hash="gallery3">
           <div class="gallery-card">
             <img
               src="./img/home/gallery-picture-3.png"
@@ -41,7 +41,7 @@
           </div>
         </div>
 
-        <div class="swiper-slide">
+        <div class="swiper-slide gallery" data-hash="gallery4">
           <div class="gallery-card">
             <img
               src="./img/home/gallery-picture-4.png"
@@ -51,7 +51,7 @@
           </div>
         </div>
 
-        <div class="swiper-slide">
+        <div class="swiper-slide gallery" data-hash="gallery5">
           <div class="gallery-card">
             <img
               src="./img/home/gallery-picture-5.png"
@@ -61,8 +61,20 @@
           </div>
         </div>
       </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-prev">
+        <img
+          class="gallery-arrow-prev"
+          src="./img/home/desc/back-arrow.png"
+          alt="left-arrow"
+        />
+      </div>
+      <div class="swiper-button-next">
+        <img
+          class="gallery-arrow-next"
+          src="./img/home/desc/next-arrow.png"
+          alt="left-arrow"
+        />
+      </div>
       <div class="swiper-pagination"></div>
     </div>
   </div>
