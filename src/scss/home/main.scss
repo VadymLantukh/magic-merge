@@ -1,9 +1,11 @@
 .hero {
   display: flex;
+  max-width: 256px;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  margin: 0 auto;
   margin-bottom: 40px;
 }
 
@@ -15,16 +17,6 @@
   text-align: center;
 }
 
-// .googlePlay {
-//   padding: 6px 50px;
-//   border-radius: 30px;
-//   background: var(--White, #fff);
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: space-around;
-//   align-items: center;
-//   flex-direction: row;
-// }
 .main-btn-googlePlay {
   position: relative;
   margin: 0 auto;
