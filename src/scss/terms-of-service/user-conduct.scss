@@ -3,18 +3,24 @@
   margin-bottom: 10px;
 }
 
+.list-conduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
 .item-conduct {
   display: flex;
-  align-items: center;
+  width: 204px;
 }
 
 .item-conduct::before {
   content: '';
-  display: block;
+  display: inline-block;
   background-image: url('/img/icon-key.png');
-  background-size: 100%;
   background-repeat: no-repeat;
-  width: 26px;
   height: 26px;
+  min-width: 26px;
   margin-right: 13px;
 }
