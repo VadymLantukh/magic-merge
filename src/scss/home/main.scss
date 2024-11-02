@@ -28,10 +28,7 @@
 }
 
 .main-btn-googlePlay:hover {
-  background: var(
-    --Gradient-Hover,
-    linear-gradient(176deg, #2d98fa 2.26%, rgba(45, 152, 250, 0.3) 97.97%)
-  );
+  background: linear-gradient(158deg, #2d98fa 0%, rgba(45, 152, 250, 0.3) 100%);
 }
 
 .main-btn-googlePlay:active {

@@ -20,7 +20,13 @@
   display: inline-block;
   background-image: url('/img/icon-key.png');
   background-repeat: no-repeat;
+  background-size: cover;
   height: 26px;
   min-width: 26px;
   margin-right: 13px;
+}
+@media only screen and (min-resolution: 192dpi) {
+  .item-conduct::before {
+    background-image: url('/img/icon-key@2x.png');
+  }
 }
