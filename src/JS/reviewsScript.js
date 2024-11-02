@@ -8,9 +8,5 @@ document.addEventListener('DOMContentLoaded', function () {
       clickable: true,
     },
 
-
-    speed: 500,
-
-
   });
 });
