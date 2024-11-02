@@ -1,0 +1,20 @@
+.conduct-parag {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.item-conduct {
+  display: flex;
+  align-items: center;
+}
+
+.item-conduct::before {
+  content: '';
+  display: block;
+  background-image: url('/img/icon-key.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  margin-right: 13px;
+}
