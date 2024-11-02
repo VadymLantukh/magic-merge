@@ -15,16 +15,6 @@
   text-align: center;
 }
 
-// .googlePlay {
-//   padding: 6px 50px;
-//   border-radius: 30px;
-//   background: var(--White, #fff);
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: space-around;
-//   align-items: center;
-//   flex-direction: row;
-// }
 .main-btn-googlePlay {
   position: relative;
   margin: 0 auto;
@@ -36,10 +26,7 @@
 }
 
 .main-btn-googlePlay:hover {
-  background: var(
-    --Gradient-Hover,
-    linear-gradient(176deg, #2d98fa 2.26%, rgba(45, 152, 250, 0.3) 97.97%)
-  );
+  background: linear-gradient(158deg, #2d98fa 0%, rgba(45, 152, 250, 0.3) 100%);
 }
 
 .main-btn-googlePlay:active {
