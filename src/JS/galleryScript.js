@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   const swiper = new Swiper('.swiperGallery', {
+
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -7,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
+      dynamicBullets: true,
     },
   });
 });
