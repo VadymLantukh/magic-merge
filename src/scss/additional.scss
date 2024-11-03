@@ -36,3 +36,16 @@ p {
     margin-bottom: 120px;
   }
 }
+
+.logo {
+  transition: var(--transition);
+  border-radius: 10px;
+}
+
+.logo:hover {
+  box-shadow: 2px 3px 3px 0 #33a0fa;
+}
+
+.logo:active {
+  box-shadow: 2px 3px 3px 0 var(--purple-button-active);
+}

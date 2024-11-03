@@ -31,6 +31,7 @@
 @import './container.scss';
 @import './additional.scss';
 @import './footer.scss';
+@import './btn-googlePlay.scss';
 
 :root {
   font-size: 16px;
@@ -45,7 +46,7 @@
   --white: #fff;
   --purple-button-active: #9747ff;
 
-  --transition: all 300ms linear;
+  --transition: all 250ms linear;
 
   --font-family: 'PT Sans', sans-serif;
   --second-family: 'Baloo 2', sans-serif;
