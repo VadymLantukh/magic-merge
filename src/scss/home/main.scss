@@ -27,7 +27,8 @@
   background-color: var(--white);
 }
 
-.main-btn-googlePlay:hover {
+.main-btn-googlePlay:hover,
+.main-btn-googlePlay:focus {
   background: linear-gradient(158deg, #2d98fa 0%, rgba(45, 152, 250, 0.3) 100%);
 }
 
