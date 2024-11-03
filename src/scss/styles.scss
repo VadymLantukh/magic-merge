@@ -28,10 +28,10 @@
 @import './privacy-policy/third-services.scss';
 @import './privacy-policy/use-information.scss';
 
-@import './container.scss';
-@import './additional.scss';
-@import './footer.scss';
-@import './btn-googlePlay.scss';
+@import './additionally/container.scss';
+@import './additionally/general-rules-tag.scss';
+@import './additionally/footer.scss';
+@import './additionally/btn-googlePlay.scss';
 
 :root {
   font-size: 16px;
