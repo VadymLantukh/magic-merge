@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
       el: '.swiper-pagination',
       clickable: true,
       dynamicBullets: true,
+      dynamicMainBullets: 5,
     },
   });
 });
