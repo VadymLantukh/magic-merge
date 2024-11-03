@@ -1,0 +1,33 @@
+.parag-ingormation {
+  width: 256px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.list-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.item-information {
+  display: flex;
+  width: 243px;
+}
+
+.item-information::before {
+  content: '';
+  display: inline-block;
+  background-image: url('/img/for-all/icon-key.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 26px;
+  min-width: 26px;
+  margin-right: 13px;
+}
+@media only screen and (min-resolution: 192dpi) {
+  .item-information::before {
+    background-image: url('/img/for-all/icon-key@2x.png');
+  }
+}

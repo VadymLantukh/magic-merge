@@ -53,10 +53,18 @@
   display: none;
 }
 
+.swiper-button-prev {
+  height: 27px !important;
+}
+
+.swiper-button-next {
+  height: 27px !important;
+}
+
 .gallery-arrow-next {
   position: absolute;
   top: -10%;
-  width: 36px;
+  max-width: 36px;
   height: 27px;
   transition: var(--transition);
 }
@@ -64,7 +72,7 @@
 .gallery-arrow-prev {
   position: absolute;
   top: -10%;
-  width: 36px;
+  max-width: 36px;
   height: 27px;
   transition: var(--transition);
 }

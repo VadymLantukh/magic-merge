@@ -1,0 +1,30 @@
+.privacy-main-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-arrowBack {
+  position: absolute;
+  top: 35%;
+  left: 0px;
+  transform: translateY(-50%);
+}
+
+.privacy-title {
+  width: 120px;
+}
+
+.privacy-parag-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.privacy-parag-data {
+  margin-bottom: 10px;
+}
+
+.privacy-main-parag {
+  width: 136px;
+}

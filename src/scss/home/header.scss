@@ -85,7 +85,7 @@
   top: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url('../img/background_menu.png');
+  background-image: url('../img/for-all/background_menu.png');
   background-size: cover;
   background-repeat: no-repeat;
   transition: opacity 0.5s ease, visibility 0.5s ease;
@@ -93,7 +93,7 @@
 
 @media only screen and (min-resolution: 192dpi) {
   .bg-mob-menu {
-    background-image: url('../img/background@2x_menu.png');
+    background-image: url('../img/for-all/background@2x_menu.png');
   }
 }
 

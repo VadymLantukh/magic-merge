@@ -38,19 +38,35 @@
     </picture>
   </div>
 
-  <button class="ready-btn-googlePlay">
+  <button class="btn-googlePlay">
     <a
-      class="ready-link-googlePlay"
+      class="btn-googlePlay-link"
       href="https://play.google.com/store"
       target="_blank"
     >
-      <img
-        src="./img/home/mob/googlePlayLogo_mob.png"
-        alt="googlePlayBbt"
-        loading="lazy"
-        width="156px"
-        height="40px"
-      />
+      <picture>
+        <source
+          srcset="
+            ./img/home/desc/googlePlayLogo.png   1x,
+            ./img/home/desc/googlePlayLogo2x.png 2x
+          "
+          media="(min-width: 1200px)"
+          type="image/png"
+        />
+        <source
+          srcset="
+            ./img/home/mob/googlePlayLogo_mob.png   1x,
+            ./img/home/mob/googlePlayLogo2x_mob.png 2x
+          "
+          media="(min-width: 320px)"
+          type="image/png"
+        />
+        <img
+          src="./img/home/mob/googlePlayLogo_mob.png"
+          alt="logo"
+          loading="lazy"
+        />
+      </picture>
     </a>
   </button>
 </section>

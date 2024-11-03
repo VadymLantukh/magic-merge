@@ -18,7 +18,7 @@
 .item-conduct::before {
   content: '';
   display: inline-block;
-  background-image: url('/img/icon-key.png');
+  background-image: url('/img/for-all/icon-key.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 26px;
@@ -27,6 +27,6 @@
 }
 @media only screen and (min-resolution: 192dpi) {
   .item-conduct::before {
-    background-image: url('/img/icon-key@2x.png');
+    background-image: url('/img/for-all/icon-key@2x.png');
   }
 }

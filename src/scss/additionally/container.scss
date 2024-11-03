@@ -1,38 +1,38 @@
 .container {
   width: 100%;
   margin: 0 auto;
-  background-image: url('/img/background-main_mob.png');
+  background-image: url('/img/for-all/background-main_mob.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media only screen and (min-resolution: 192dpi) {
   .container {
-    background-image: url('/img/background-main@2x_mob.png');
+    background-image: url('/img/for-all/background-main@2x_mob.png');
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .container {
     padding: 0 80px;
-    background-image: url('/img/background-main.png');
+    background-image: url('/img/for-all/background-main.png');
   }
 }
 
 @media only screen and (min-width: 1200px) and (min-resolution: 192dpi) {
   .container {
     padding: 0 80px;
-    background-image: url('/img/background-main@2x.png');
+    background-image: url('/img/for-all/background-main@2x.png');
   }
 }
 
 .bg-service-policy {
-  background-image: url('/img/background_menu.png');
+  background-image: url('/img/for-all/background_menu.png');
 }
 
 @media only screen and (min-resolution: 192dpi) {
   .bg-service-policy {
-    background-image: url('/img/background@2x_menu.png');
+    background-image: url('/img/for-all/background@2x_menu.png');
   }
 }
 
