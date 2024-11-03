@@ -1,0 +1,34 @@
+.parag-use-info {
+  margin-bottom: 10px;
+}
+.list-use-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.item-use-info {
+  display: flex;
+  width: 243px;
+}
+
+.item-parag-use-info {
+  width: 204px;
+}
+
+.item-use-info::before {
+  content: '';
+  display: inline-block;
+  background-image: url('/img/icon-key.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 26px;
+  min-width: 26px;
+  margin-right: 13px;
+}
+@media only screen and (min-resolution: 192dpi) {
+  .item-use-info::before {
+    background-image: url('/img/icon-key@2x.png');
+  }
+}
