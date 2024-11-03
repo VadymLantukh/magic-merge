@@ -13,6 +13,12 @@
 .burger-btn {
   width: 32px;
   height: 32px;
+  transition: var(--transition);
+}
+
+.burger-btn:hover,
+.burger-btn:focus {
+  transform: scale(1.1);
 }
 
 .burger-svg {
@@ -31,6 +37,8 @@
   pointer-events: none;
   visibility: hidden;
   position: fixed;
+  top: 80px;
+  transform: translate(-50%);
   border-radius: 8px;
   height: 165px;
   width: 256px;
