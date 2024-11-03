@@ -31,9 +31,6 @@
   align-items: center;
 }
 
-.swiper-pagination {
-}
-
 .swiper-pagination-bullet {
   background-color: #7ec3f2 !important;
   width: 10px;
@@ -61,6 +58,7 @@
   top: -10%;
   width: 36px;
   height: 27px;
+  transition: var(--transition);
 }
 
 .gallery-arrow-prev {
@@ -68,4 +66,13 @@
   top: -10%;
   width: 36px;
   height: 27px;
+  transition: var(--transition);
+}
+
+.gallery-arrow-next:hover {
+  transform: scale(1.2);
+}
+
+.gallery-arrow-prev:hover {
+  transform: scale(1.2);
 }
