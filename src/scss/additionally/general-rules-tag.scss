@@ -1,5 +1,5 @@
 h2 {
-  margin-bottom: 40px;
+  margin-bottom: 40px !important;
   font-family: var(--second-family);
   color: var(--accent-text-colour);
   font-weight: 600;
@@ -16,6 +16,7 @@ h2 {
 }
 
 p {
+  margin: 0 auto;
   font-family: var(--font-family);
   font-size: 12px;
   color: var(--main-text-colour);
@@ -48,4 +49,9 @@ p {
 
 .logo:active {
   box-shadow: 2px 3px 3px 0 var(--purple-button-active);
+}
+
+.parag-wrapper {
+  width: 256px;
+  margin: 0 auto;
 }
