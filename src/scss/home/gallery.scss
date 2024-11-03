@@ -69,10 +69,10 @@
   transition: var(--transition);
 }
 
-.gallery-arrow-next:hover {
+.gallery-arrow-next:active {
   transform: scale(1.2);
 }
 
-.gallery-arrow-prev:hover {
+.gallery-arrow-prev:active {
   transform: scale(1.2);
 }
