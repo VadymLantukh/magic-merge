@@ -1,49 +1,37 @@
 .hero {
   display: flex;
-  max-width: 256px;
-  flex-wrap: wrap;
+  width: 256px;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
   margin: 0 auto;
   margin-bottom: 40px;
 }
 
-.heroTitle {
-  font-family: var(--second-family);
-  font-size: 24px;
-  font-weight: 600;
-  color: var(--accent-text-colour);
-  text-align: center;
+@media only screen and (min-width: 1200px) {
+  .hero {
+    width: 862px;
+    height: 326px;
+  }
 }
 
-// .main-btn-googlePlay {
-//   position: relative;
-//   margin: 0 auto;
-//   border-radius: 30px;
-//   padding: 6px 50px;
-//   width: 256px;
-//   height: 53px;
-//   background-color: var(--white);
-//   transition: var(--transition);
-// }
+.main-picture {
+  border-radius: 30px;
+}
 
-// .main-btn-googlePlay:hover,
-// .main-btn-googlePlay:focus {
-//   background: linear-gradient(158deg, #2d98fa 0%, rgba(45, 152, 250, 0.3) 100%);
-// }
+@media only screen and (min-width: 1200px) {
+  .main-picture {
+    width: 326px;
+    height: 326px;
+  }
+}
 
-// .main-btn-googlePlay:active {
-//   background: var(--purple-button-active);
-// }
+.heroTitle {
+  width: 120px;
+  margin-bottom: 0px;
+}
 
-// .main-link-googlePlay {
-//   width: 100%;
-//   height: 100%;
-//   position: absolute;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   left: 0;
-//   top: 0;
-// }
+@media only screen and (min-width: 1200px) {
+  .heroTitle {
+    width: 504px;
+  }
+}

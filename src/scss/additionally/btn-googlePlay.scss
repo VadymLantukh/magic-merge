@@ -9,6 +9,13 @@
   transition: var(--transition);
 }
 
+@media only screen and (min-width: 1200px) {
+  .btn-googlePlay {
+    width: 325px;
+    height: 104px;
+  }
+}
+
 .btn-googlePlay:hover,
 .btn-googlePlay:focus {
   background: linear-gradient(158deg, #2d98fa 0%, rgba(45, 152, 250, 0.3) 100%);

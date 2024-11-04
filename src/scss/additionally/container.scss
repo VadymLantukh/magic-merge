@@ -14,14 +14,12 @@
 
 @media only screen and (min-width: 1200px) {
   .container {
-    padding: 0 80px;
     background-image: url('/img/for-all/background-main.png');
   }
 }
 
 @media only screen and (min-width: 1200px) and (min-resolution: 192dpi) {
   .container {
-    padding: 0 80px;
     background-image: url('/img/for-all/background-main@2x.png');
   }
 }
@@ -37,5 +35,11 @@
 }
 
 .main {
-  padding: 40px 32px;
+  padding: 112px 40px 32px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .main {
+    padding: 306px 80px 80px;
+  }
 }

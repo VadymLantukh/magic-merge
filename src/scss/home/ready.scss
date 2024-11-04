@@ -1,3 +1,18 @@
+.mainBox-ready {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 1200px) {
+  .mainBox-ready {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    width: 1040px;
+  }
+}
+
 .ready-title {
   font-family: var(--third-family);
   width: 152px;
@@ -9,44 +24,78 @@
   margin-bottom: 10px;
 }
 
+@media only screen and (min-width: 1200px) {
+  .ready-title {
+    font-size: 24px;
+    width: 320px;
+    margin-bottom: 40px;
+  }
+}
+
 .ready-box {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
+  max-width: 256px;
   margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .ready-box {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .ready-box-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .ready-img {
+    width: 236px;
+    height: 236px;
+    margin-bottom: 40px;
+  }
+}
+
+.ready-logo-title {
+  display: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  .ready-logo-title {
+    display: block;
+    width: 415px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 48px;
+  }
 }
 
 .ready-parag {
   width: 120px;
+  margin-right: 16px;
 }
 
-// .ready-btn-googlePlay {
-//   position: relative;
-//   margin: 0 auto;
-//   border-radius: 30px;
-//   padding: 6px 50px;
-//   width: 256px;
-//   height: 53px;
-//   background-color: var(--white);
-//   transition: var(--transition);
-// }
+@media only screen and (min-width: 1200px) {
+  .ready-parag {
+    display: none;
+  }
+}
 
-// .ready-btn-googlePlay:hover,
-// .ready-btn-googlePlay:focus {
-//   background: linear-gradient(158deg, #2d98fa 0%, rgba(45, 152, 250, 0.3) 100%);
-// }
+.ready-parag-desc {
+  display: none;
+}
 
-// .ready-btn-googlePlay:active {
-//   background: var(--purple-button-active);
-// }
-
-// .ready-link-googlePlay {
-//   width: 100%;
-//   height: 100%;
-//   position: absolute;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   left: 0;
-//   top: 0;
-// }
+@media only screen and (min-width: 1200px) {
+  .ready-parag-desc {
+    text-align: center;
+    display: block;
+    width: 504px;
+  }
+}

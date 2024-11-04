@@ -5,7 +5,8 @@ const closeBtnEl = document.querySelector('.close-menu-btn');
 const mobMenu = document.querySelector('.mob-menu');
 const bodyEl = document.querySelector('body');
 const bgMobMenuEl = document.querySelector('.bg-mob-menu');
-const listNavLink = document.querySelector('.list-mob-nav');
+const listNavLinkEl = document.querySelector('.list-mob-nav');
+const listNavLinkDescEl = document.querySelector('.list-nav');
 
 const toggleScroll = isOpen => {
   isOpen
@@ -19,7 +20,7 @@ const toggleMobMenu = () => {
   toggleScroll(isOpenMob);
 };
 
-listNavLink.addEventListener('click', evt => {
+listNavLinkEl.addEventListener('click', evt => {
   evt.preventDefault();
   const link = evt.target.closest('a');
   if (!link) return;
@@ -27,6 +28,16 @@ listNavLink.addEventListener('click', evt => {
   const target = link.getAttribute('href');
 
   toggleMobMenu();
+  smoothScroll(target);
+});
+
+listNavLinkDescEl.addEventListener('click', evt => {
+  evt.preventDefault();
+  const link = evt.target.closest('a');
+  if (!link) return;
+
+  const target = link.getAttribute('href');
+
   smoothScroll(target);
 });
 

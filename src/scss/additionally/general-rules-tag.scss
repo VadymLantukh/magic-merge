@@ -1,5 +1,5 @@
 h2 {
-  margin-bottom: 40px !important;
+  margin-bottom: 40px;
   font-family: var(--second-family);
   color: var(--accent-text-colour);
   font-weight: 600;
@@ -49,6 +49,14 @@ p {
 
 .logo:active {
   box-shadow: 2px 3px 3px 0 var(--purple-button-active);
+}
+
+@media only screen and (min-width: 1200px) {
+  .logo {
+    border-radius: 30px;
+    width: 146px;
+    height: 146px;
+  }
 }
 
 .parag-wrapper {
