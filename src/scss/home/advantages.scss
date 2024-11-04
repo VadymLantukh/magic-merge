@@ -6,10 +6,25 @@
   width: 256px;
 }
 
+@media only screen and (min-width: 1200px) {
+  .advantages-box {
+    width: 1040px;
+  }
+}
+
 .advantages-img {
   position: absolute;
   top: 40px;
   left: 0px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .advantages-img {
+    width: 415px;
+    height: 504px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
 
 .list-advantages {
@@ -22,12 +37,28 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  min-height: 370px;
+  height: 370px;
   width: 188px;
   padding-left: 52px;
   justify-content: center;
 }
 
+@media only screen and (min-width: 1200px) {
+  .list-advantages {
+    text-align: center;
+    width: 772px;
+    height: 668px;
+    gap: 32px;
+    padding-left: 179px;
+  }
+}
+
 .item-advantages {
   width: 126px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .item-advantages {
+    width: 536px;
+  }
 }

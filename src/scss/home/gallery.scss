@@ -81,6 +81,20 @@
   transform: scale(1.2);
 }
 
+@media only screen and (min-width: 1200px) {
+  .gallery-arrow-next {
+    width: 147px;
+    height: 100px;
+  }
+}
+
 .gallery-arrow-prev:active {
   transform: scale(1.2);
+}
+
+@media only screen and (min-width: 1200px) {
+  .gallery-arrow-prev {
+    width: 147px;
+    height: 100px;
+  }
 }

@@ -4,10 +4,25 @@
   width: 256px;
 }
 
+@media only screen and (min-width: 1200px) {
+  .about-box {
+    width: 1040px;
+  }
+}
+
 .about-img {
   position: absolute;
   top: 40px;
   right: 0px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .about-img {
+    width: 417px;
+    height: 484px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
 
 .about-parag-box {
@@ -17,10 +32,26 @@
   width: 188px;
   height: 372px;
   background: linear-gradient(148deg, #f4e7b2 0%, #fdc331 100%);
-  height: 372px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .about-parag-box {
+    width: 772px;
+    height: 654px;
+    padding-right: 179px;
+  }
 }
 
 .about-parag {
-  width: 140px;
+  width: 134px;
+  margin: 0px;
   padding-left: 10px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .about-parag {
+    text-align: center;
+    width: 536px;
+    height: 574px;
+  }
 }
