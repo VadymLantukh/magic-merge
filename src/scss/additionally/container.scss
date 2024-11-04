@@ -43,3 +43,13 @@
     padding: 306px 80px 80px;
   }
 }
+
+.normal-padding {
+  padding-top: 40px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .normal-padding {
+    padding-top: 85px;
+  }
+}
