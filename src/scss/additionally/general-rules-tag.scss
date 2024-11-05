@@ -52,6 +52,15 @@ p {
 }
 
 @media only screen and (min-width: 1200px) {
+  .logo-footer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
   .logo {
     border-radius: 30px;
     width: 146px;
@@ -73,9 +82,18 @@ p {
 }
 
 .btn-arrowBack {
+  position: absolute;
+  left: 32px;
+  top: 65px;
   border-radius: 30px;
-  margin-right: 32px;
   transition: var(--transition);
+}
+
+@media only screen and (min-width: 1200px) {
+  .btn-arrowBack {
+    top: 80px;
+    left: 80px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -84,13 +102,8 @@ p {
   }
 }
 
-.privacy-arrow {
-  border-radius: 30px;
-}
-
 @media only screen and (min-width: 1200px) {
-  .privacy-arrow {
-    margin-right: 121px;
+  .back-arrow {
     width: 147px;
     height: 100px;
   }

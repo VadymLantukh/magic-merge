@@ -1,6 +1,6 @@
 .privacy-main-box {
-  margin: 0 auto;
   width: 256px;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -24,6 +24,7 @@
 
 .privacy-title {
   width: 120px;
+  margin: 0 auto;
   margin-bottom: 0px;
 }
 
@@ -42,7 +43,6 @@
 @media only screen and (min-width: 1200px) {
   .privacy-parag-box {
     width: 951px;
-    justify-content: flex-end;
   }
 }
 

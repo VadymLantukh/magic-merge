@@ -2,6 +2,7 @@
   display: flex;
   width: 256px;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   margin: 0 auto;
   margin-bottom: 40px;
@@ -9,6 +10,8 @@
 
 @media only screen and (min-width: 1200px) {
   .hero {
+    flex-direction: column;
+    justify-content: center;
     width: 862px;
     height: 326px;
   }
@@ -34,4 +37,8 @@
   .heroTitle {
     width: 504px;
   }
+}
+
+.margin-top {
+  margin-top: 40px !important;
 }
