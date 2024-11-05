@@ -36,7 +36,7 @@
   width: 10px;
   height: 10px;
   opacity: 1 !important;
-  transition: all 0.3s ease;
+  transition: var(--transition) !important;
 }
 
 .swiper-pagination-bullet-active {
@@ -92,7 +92,6 @@
 @media only screen and (min-width: 1200px) {
   .gallery-container {
     max-width: 1040px;
-    margin: 0 auto;
   }
 
   .gallery {
@@ -108,7 +107,6 @@
   .swiper-pagination-bullet {
     width: 11px;
     height: 11px;
-    transition: var(--transition) !important;
   }
 
   .swiper-pagination-bullet-active {
