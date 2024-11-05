@@ -8,5 +8,12 @@ document.addEventListener('DOMContentLoaded', function () {
       clickable: true,
     },
 
+    breakpoints: {
+      1200: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+      },
+    },
+
   });
 });
