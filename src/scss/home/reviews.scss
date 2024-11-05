@@ -1,7 +1,6 @@
 .reviews-container {
-  max-width: 275px;
+  max-width: 256px;
   margin: 0 auto;
-  padding: 20px;
 }
 
 .cardSvg {
@@ -13,6 +12,7 @@
   margin-right: 40px;
   width: 16px;
   height: 16px;
+  fill: #004080;
 }
 
 .review-card {
@@ -78,4 +78,53 @@ h3 {
   width: 25px !important;
   border-radius: 5px !important;
   opacity: 1;
+}
+
+@media screen and (min-width: 1200px) {
+  .reviews-container {
+    max-width: 862px;
+  }
+
+  .swiper-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+  }
+
+  .swiper-slide {
+    margin-bottom: 40px;
+    width: 100% !important;
+  }
+
+  .cardSvg {
+    margin-top: 16px;
+    margin-right: 57px;
+    width: 32px;
+    height: 32px;
+  }
+
+  .review-card {
+    display: inline-block;
+    margin-bottom: 40px;
+    padding: 10px 80px 10px 56px;
+    border-radius: 24px 120px 120px 24px;
+    height: 142px;
+  }
+
+  .third {
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .review-card::before {
+    width: 16px;
+  }
+
+  .swiper-pagination-bullet {
+    display: none !important;
+  }
 }
