@@ -39,6 +39,7 @@
 @media only screen and (min-width: 1200px) {
   .footer-nav-list {
     width: 415px;
+    justify-content: center;
   }
 }
 
@@ -49,7 +50,7 @@
 
 .nav-link-footer:hover,
 .nav-link-footer:focus {
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 
 @media only screen and (min-width: 1200px) {
@@ -87,5 +88,11 @@
     font-family: var(--third-family);
     color: var(--accent-text-colour);
     margin: 0px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .span-footer {
+    font-size: 16px;
   }
 }
