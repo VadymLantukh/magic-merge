@@ -1,18 +1,36 @@
 .privacy-main-box {
-  position: relative;
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
+  width: 256px;
 }
 
-.btn-arrowBack {
-  position: absolute;
-  top: 35%;
-  left: 0px;
-  transform: translateY(-50%);
+@media only screen and (min-width: 1200px) {
+  .privacy-main-box {
+    width: 951px;
+  }
+}
+
+.privacy-title-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .privacy-title-box {
+    margin-bottom: 85px;
+  }
 }
 
 .privacy-title {
   width: 120px;
+  margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .privacy-title {
+    width: 504px;
+  }
 }
 
 .privacy-parag-box {
@@ -21,10 +39,42 @@
   align-items: center;
 }
 
+@media only screen and (min-width: 1200px) {
+  .privacy-parag-box {
+    width: 951px;
+    justify-content: flex-end;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .privacy-text-box {
+    width: 504px;
+  }
+}
+
 .privacy-parag-data {
   margin-bottom: 10px;
 }
 
+@media only screen and (min-width: 1200px) {
+  .privacy-parag-data {
+    margin-bottom: 30px;
+  }
+}
+
 .privacy-main-parag {
   width: 136px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .privacy-main-parag {
+    width: 504px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .privacy-picture {
+    width: 326px;
+    height: 376px;
+  }
 }

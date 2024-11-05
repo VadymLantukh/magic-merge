@@ -62,4 +62,36 @@ p {
 .parag-wrapper {
   width: 256px;
   margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .parag-wrapper {
+    width: 862px;
+    margin-bottom: 80px;
+  }
+}
+
+.btn-arrowBack {
+  border-radius: 30px;
+  margin-right: 32px;
+  transition: var(--transition);
+}
+
+@media only screen and (min-width: 1200px) {
+  .btn-arrowBack:hover {
+    transform: scale(1.07);
+  }
+}
+
+.privacy-arrow {
+  border-radius: 30px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .privacy-arrow {
+    margin-right: 121px;
+    width: 147px;
+    height: 100px;
+  }
 }
