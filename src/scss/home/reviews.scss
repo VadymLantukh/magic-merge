@@ -85,7 +85,7 @@ h3 {
     max-width: 862px;
   }
 
-  .swiper-wrapper {
+  .reviews-wrapper {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -122,9 +122,5 @@ h3 {
 
   .review-card::before {
     width: 16px;
-  }
-
-  .swiper-pagination-bullet {
-    display: none !important;
   }
 }
