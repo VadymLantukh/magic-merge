@@ -1,7 +1,6 @@
 .reviews-container {
-  max-width: 275px;
+  max-width: 256px;
   margin: 0 auto;
-  // padding: 20px;
 }
 
 .cardSvg {
@@ -23,7 +22,6 @@
   padding: 12px 60px 10px 18px;
   border-radius: 10px 60px 60px 10px;
   height: 93px;
-  width: 256px;
 }
 
 .first {
@@ -85,8 +83,6 @@ h3 {
 @media screen and (min-width: 1200px) {
   .reviews-container {
     max-width: 862px;
-    margin: 0 auto;
-    padding: 0px;
   }
 
   .swiper-wrapper {
@@ -102,77 +98,33 @@ h3 {
   }
 
   .cardSvg {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 2;
     margin-top: 16px;
     margin-right: 57px;
     width: 32px;
     height: 32px;
-    fill: #004080;
   }
 
   .review-card {
     display: inline-block;
-    position: relative;
     margin-bottom: 40px;
-    background: #f5f5f5;
     padding: 10px 80px 10px 56px;
     border-radius: 24px 120px 120px 24px;
     height: 142px;
   }
 
-  .first {
-    background-color: var(--blue);
-  }
-
-  .second {
-    background-color: var(--yellow);
-  }
-
   .third {
     margin-bottom: 10px;
-    background-color: var(--green);
   }
 
   h3 {
-    color: var(--main-text-colour);
-    font-family: var(--third-family);
     font-size: 24px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    margin-bottom: 10px;
-    width: 100%;
   }
 
   .review-card::before {
-    content: '';
-    position: absolute;
-    z-index: 1;
-    left: 0px;
-    top: 0;
-    bottom: 0;
     width: 16px;
-    background-color: var(--accent-text-colour);
-    border-top-left-radius: 16px;
-    border-bottom-left-radius: 16px;
-  }
-
-  .swiper-pagination-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .swiper-pagination-bullet {
     display: none !important;
-  }
-
-  .swiper-pagination-bullet-active {
-    width: 25px !important;
-    border-radius: 5px !important;
-    opacity: 1;
   }
 }
