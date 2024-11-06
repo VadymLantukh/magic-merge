@@ -46,9 +46,14 @@
   }
 }
 
+.privacy-text-box {
+  margin-right: 10px;
+}
+
 @media only screen and (min-width: 1200px) {
   .privacy-text-box {
     width: 504px;
+    margin-right: 32px;
   }
 }
 
