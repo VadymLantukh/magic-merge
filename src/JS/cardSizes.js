@@ -5,11 +5,11 @@ function setRandomWidthForListItems() {
 
   if (window.innerWidth > 1199) {
     listItems.forEach(item => {
-      const randomWidth = Math.floor(Math.random() * (maxWidth - minWidth + 1)) + minWidth;
+      const randomWidth =
+        Math.floor(Math.random() * (maxWidth - minWidth + 1)) + minWidth;
       item.style.width = randomWidth + 'px';
     });
   } else {
-
     listItems.forEach(item => {
       item.style.width = '100%';
     });
