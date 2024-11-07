@@ -10,7 +10,7 @@ the layout was developed by a web designer [**Yana Rusina**](https://www.linkedi
 
 ### Developers:
 
-<div style="display: flex; align-items: center; gap: 10px"><span>Vadym Lantukh</span> <a href="\https://www.linkedin.com/in/vadym-lantukh/" target="_blank" > <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /> </a> </div> <div style="display: flex; align-items: center; gap: 10px"><span>Vitalii Intelehator</span> <a href="https://www.linkedin.com/in/vitalii-intelehator/" target="_blank" > <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a> </div>
+<div style="display: flex; align-items: center; gap: 10px"><span>Vadym Lantukh</span> <a href="https://www.linkedin.com/in/vadym-lantukh/" target="_blank" > <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /> </a> </div> <div style="display: flex; align-items: center; gap: 10px"><span>Vitalii Intelehator</span> <a href="https://www.linkedin.com/in/vitalii-intelehator/" target="_blank" > <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a> </div>
 
 ### Project structure:
 
